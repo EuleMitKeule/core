@@ -2,7 +2,12 @@
 
 from collections.abc import Callable
 from dataclasses import dataclass
+<<<<<<< HEAD
 from datetime import datetime
+=======
+from datetime import date, datetime
+from decimal import Decimal
+>>>>>>> 0804fa567b (Add sensor platform to eq3btsmart)
 from typing import TYPE_CHECKING
 
 from eq3btsmart.models import Status
@@ -11,6 +16,10 @@ from homeassistant.components.sensor import (
     SensorDeviceClass,
     SensorEntity,
     SensorEntityDescription,
+<<<<<<< HEAD
+=======
+    StateType,
+>>>>>>> 0804fa567b (Add sensor platform to eq3btsmart)
 )
 from homeassistant.components.sensor.const import SensorStateClass
 from homeassistant.const import PERCENTAGE
